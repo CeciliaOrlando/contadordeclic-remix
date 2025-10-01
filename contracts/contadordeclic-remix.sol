@@ -3,9 +3,7 @@ pragma solidity ^0.8.20;
 
 contract ContadorDeClics {
 
-    // Esta variable de tipo 'uint' guardará nuestro número.
-    // El modificador 'public' crea automáticamente una función para ver su valor.
-    uint public contador = 0;
+      uint public contador = 0;
 
     // Esta función permite a cualquiera "hacer clic" para incrementar el contador.
     function click() public {
